@@ -10,7 +10,7 @@ public class Menu {
    Scanner miScanner = new Scanner (System.in);
    int opcion; boolean salir=false;
   do{ 
-   System.out.println("estas en la fonda de eduardo");
+   System.out.println("estas en la fonda de mario");
    System.out.println("elige tu opcion");
    System.out.println("1 huevos revueltos");
    System.out.println("2 milanesas");
