@@ -1,1 +1,89 @@
 
+package primerProyecto;
+
+import java.util.Scanner;
+
+public class Menu {
+    
+    public void desayunar(){
+        int x=0;
+   Scanner miScanner = new Scanner (System.in);
+   int opcion; boolean salir=false;
+  do{ 
+   System.out.println("estas en la fonda de eduardo");
+   System.out.println("elige tu opcion");
+   System.out.println("1 huevos revueltos");
+   System.out.println("2 milanesas");
+   System.out.println("3 tacos");
+   System.out.println("4 sopa de arroz");
+
+   opcion=miScanner.nextInt();
+   switch (opcion){
+       case 1:
+       System.out.println("en un momento sale tus huevos revueltos");
+
+       break;
+
+       case 2:
+       System.out.println("en un momento sale tus milanesas");
+       break;
+       case 3:
+       System.out.println("en un momento sale tus tacos");
+       break;
+       case 4:
+       System.out.println("en un momento sale tu sopa de arroz");
+
+       break;
+       case 5:
+       System.out.println("desea algo de tomar");
+       salir=true;
+       break;
+   }
+   
+}
+  while (salir!=true);
+
+}
+public void bebidas(){
+
+
+    Scanner miScanner = new Scanner (System.in);
+   int x;
+  do{ 
+   
+   System.out.println("elige tu opcion de bebida");
+   
+   System.out.println("6 bebida italiana");
+   System.out.println("7 licuado");
+   System.out.println("8 coca cola");
+   System.out.println("9 malteada");
+   System.out.println("10 salir"); 
+   x=miScanner.nextInt();
+   switch (x){
+      
+       case 6:
+       System.out.println("en un momento te sirvo tu bebida italiana");
+       break;
+       case 7:
+       System.out.println("en un momento te sirvo tu licuado");
+       break;
+       case 8:
+       System.out.println("en un momento te sirvo tu cocacola");
+       break;
+       case 9:
+       System.out.println("en un momento te sirvo tu malteada");
+       break;
+       case 10:
+       System.out.println("Bye");
+       System.exit(0);
+       break;
+       case 11:
+       System.out.println("Bye");
+       System.exit(0);
+       break;
+   }
+   
+}
+  while (x!=11);
+}
+}
