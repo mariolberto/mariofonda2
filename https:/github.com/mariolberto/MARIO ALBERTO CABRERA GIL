@@ -2,7 +2,7 @@ package primerProyecto;
 
 public class Primerproyecto {
     public static void main(String[] args) {
-        System.out.println("hola eduardo!");
+        System.out.println("hola mario!");
     
         Menu menu=new Menu();
         menu.desayunar();
